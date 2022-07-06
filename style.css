@@ -39,36 +39,55 @@ body {
 
 #tk1 {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
+    background-color: aqua;
 }
 
 #tk2 {
     margin-left: 10px;
     border: 2px solid red;
     padding: 10px;
+    background-color: aqua;
+
 }
 
 #tk3 {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
+    background-color: aqua;
 }
 
 #tk4 {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
+    background-color: aqua;
 }
 
 #tk5 {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
+    background-color: aqua;
 }
 
 .other-amount {
     text-align: center;
+    border: none;
+}
+
+.other-amount input {
+    border: none;
+    border-bottom: 2px solid red;
+    height: 80%;
+    width: 80%;
+}
+
+.other-amount :focus {
+    outline: none;
+}
+
+.other-amount :placeholder-shown {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #roller {
@@ -101,17 +120,20 @@ body {
     padding: 10px;
     margin: 10px;
 }
-.help-pic{
+
+.help-pic {
     display: flex;
     width: 25%;
-    
+
 }
+
 .help-pic img {
     width: 95%;
     margin-left: 10px;
     padding-left: 10px;
 }
-#help-heading{
+
+#help-heading {
     text-align: center;
 }
 
@@ -127,30 +149,41 @@ body {
 .update {
     text-align: center;
 }
-#facebook  {
-    margin-left: 10px;
-    border: 2px solid red;
-    padding: 10px;
-    background-color: rgb(152, 76, 199);
- 
+
+#join {
+    text-align: center;
 }
 
-#twitter {
+.social-media {
+    display: flex;
+    margin-left: 350px;
+    padding-top: 20px;
+
+}
+
+
+.social-media img {
+    width: 7%;
+}
+
+#facebook {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
-    background-color: rgb(111, 81, 130);
-    
+    background-color: rgb(152, 76, 199);
+
 }
 
 #insta {
     margin-left: 10px;
-    border: 2px solid red;
     padding: 10px;
-    background-color: rgb(126, 105, 139);
-   
+    background-color: rgb(111, 81, 130);
 }
 
+#in {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(126, 105, 139);
+}
 
 footer {
     text-align: center;
